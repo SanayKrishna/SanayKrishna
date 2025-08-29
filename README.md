@@ -59,9 +59,13 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SanayKrishna&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165"/>
-  <img src="https://streak-stats.demolab.com?user=SanayKrishna&theme=tokyonight" alt="GitHub Streak" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SanayKrishna&layout=compact&theme=tokyonight" alt="Top Languages"/>
 </p>
 
+---
+
+## 🐍 Contribution Snake  
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SanayKrishna&layout=compact&theme=tokyonight" alt="Top Languages"/>
+  <img src="https://github.com/SanayKrishna/SanayKrishna/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
