@@ -12,6 +12,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # --- THIS IS THE FIX ---
+    # Add permissions for the job to write to the repository's contents
+    permissions:
+      contents: write
+    # -----------------------
+
     steps:
       # Step 1: Check out the repository so the action can write to it
       - uses: actions/checkout@v3
@@ -22,8 +28,7 @@ jobs:
           # Your GitHub username is automatically used
           github_user_name: ${{ github.repository_owner }}
           
-          # The list of files to generate
-          # One for the default view, one for dark mode, one for light mode
+          # The list of files to generate, matching your README
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
@@ -32,8 +37,7 @@ jobs:
           # A token is required to access GitHub API
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 3: This action takes the generated files from the 'dist' folder 
-      # and pushes them to a branch named 'output'
+      # Step 3: This action takes the generated files and pushes them to a branch named 'output'
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
