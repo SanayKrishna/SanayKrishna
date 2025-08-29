@@ -58,8 +58,8 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SanayKrishna&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SanayKrishna&layout=compact&theme=tokyonight" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SanayKrishna&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SanayKrishna&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 </p>
 
 ---
@@ -67,5 +67,9 @@
 ## 🐍 Contribution Snake  
 
 <p align="center">
-  <img src="https://github.com/SanayKrishna/SanayKrishna/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SanayKrishna/SanayKrishna/blob/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/SanayKrishna/SanayKrishna/blob/output/github-contribution-grid-snake-light.svg">
+    <img src="https://github.com/SanayKrishna/SanayKrishna/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+  </picture>
 </p>
