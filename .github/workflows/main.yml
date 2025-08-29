@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: "0 */12 * * *"
 
-  # This allows you to run the workflow manually from the Actions tab on GitHub
+  # This allows you to run the workflow manually fritom the Actions tab on GitHub
   workflow_dispatch:
 
 jobs:
