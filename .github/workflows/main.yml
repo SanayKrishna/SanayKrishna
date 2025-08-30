@@ -6,42 +6,41 @@ on:
   schedule:
     - cron: "0 */12 * * *"
 
-  # This allows you to run the workflow manually fritom the Actions tab on GitHub
+  # This allows you to run the workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # --- THIS IS THE FIX ---
-    # Add permissions for the job to write to the repository's contents
     permissions:
+      # Grant write permissions to the job
       contents: write
-    # -----------------------
 
     steps:
-      # Step 1: Check out the repository so the action can write to it
+      # Step 1: Check out the repository
       - uses: actions/checkout@v3
 
-      # Step 2: This is the core action that generates the snake SVG files
+      # Step 2: Generate the snake SVG files
       - uses: Platane/snk/svg-only@v3
         with:
-          # Your GitHub username is automatically used
           github_user_name: ${{ github.repository_owner }}
-          
-          # The list of files to generate, matching your README
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake-light.svg?palette=github-light
         env:
-          # A token is required to access GitHub API
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 3: This action takes the generated files and pushes them to a branch named 'output'
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      # Step 3: THIS IS THE NEW, SIMPLER PUSH ACTION
+      # It will commit the generated files from the 'dist' directory 
+      # and push them to the 'output' branch.
+      - name: Push to output branch
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Generate contribution snake"
+          branch: output
+          file_pattern: dist/*.svg
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
 
