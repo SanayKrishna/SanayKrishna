@@ -16,10 +16,11 @@
 ---
 
 ## 🚀 About Me  
-- 💻 Developer with an **Offensive Security Mindset**  
-- 🔍 Fascinated by the **Art of Ethical Hacking**  
-- 🐍 Strong Foundation in **Python Development**  
-- 🛡️ Passionate about **Finding & Patching Security Flaws**  
+- 🛡️ **Cybersecurity & Bug Bounty Researcher** with expertise in ethical hacking and penetration testing  
+- 🌐 Skilled in **Network Security**, vulnerability assessment, and secure system design  
+- 💻 **Full-Stack Developer** with experience in building scalable front-end and back-end applications  
+- 🔗 Focused on **Integrating Development & Security Practices** to deliver reliable solutions  
+
 
 ---
 
