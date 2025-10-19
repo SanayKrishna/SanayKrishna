@@ -31,6 +31,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Java-1E1E1E?style=for-the-badge&logo=java&logoColor=F89820"/>
   <img src="https://img.shields.io/badge/Python-1E1E1E?style=for-the-badge&logo=python&logoColor=3776AB"/>
+  <img src="https://img.shields.io/badge/TypeScript-1E1E1E?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
   <img src="https://img.shields.io/badge/HTML5-1E1E1E?style=for-the-badge&logo=html5&logoColor=E34F26"/>
   <img src="https://img.shields.io/badge/CSS3-1E1E1E?style=for-the-badge&logo=css3&logoColor=1572B6"/>
   <img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
@@ -51,6 +52,14 @@
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-1E1E1E?style=for-the-badge&logo=postgresql&logoColor=316192"/>
   <img src="https://img.shields.io/badge/MySQL-1E1E1E?style=for-the-badge&logo=mysql&logoColor=4479A1"/>
+</p>
+
+### 🧰 Tools  
+<p align="center">
+  <img src="https://img.shields.io/badge/Wireshark-1E1E1E?style=for-the-badge&logo=wireshark&logoColor=1679A7"/>
+  <img src="https://img.shields.io/badge/Burp%20Suite-1E1E1E?style=for-the-badge&logo=burp-suite&logoColor=FF6F00"/>
+  <img src="https://img.shields.io/badge/Nmap-1E1E1E?style=for-the-badge&logo=nmap&logoColor=2F5D62"/>
+  <img src="https://img.shields.io/badge/Metasploit-1E1E1E?style=for-the-badge&logo=metasploit&logoColor=00AEEF"/>
 </p>
 
 ---
@@ -80,6 +89,6 @@
 ---
 
 <p align="center">
-  <i>"Security isn’t just a skill — it’s a mindset."</i><br/>
+  <i>"Full-stack by build, cyber-defender by passion."</i><br/>
   ⚡ <b>Stay curious, stay ethical.</b> ⚡
 </p>
