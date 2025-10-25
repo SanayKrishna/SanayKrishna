@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Cybersecurity+%7C+Pentesting+%7C+Bug+Bounty;Building+Secure+and+Scalable+Apps;Integrating+Dev+and+Sec+for+Stronger+Systems;On+a+Path+to+Offensive+Security" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Cloud+Security+%7C+AWS;Infrastructure+Security;Securing+Cloud+Applications;Compliance+and+Threat+Analysis;Zero+Trust+Implementation" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -18,10 +18,10 @@
 ---
 
 ## 🚀 About Me  
-- 🛡️ **Cybersecurity & Bug Bounty Researcher** specializing in ethical hacking and penetration testing  
-- 🌐 Skilled in **Network Security**, vulnerability assessment, and secure system design  
-- 💻 **Full-Stack Developer** experienced in building scalable front-end & back-end applications  
-- 🔗 Passionate about **bridging development and security** for safer digital ecosystems  
+- 🛡️ **Cloud Security Engineer** specializing in AWS security controls  
+- 🌐 Skilled in **cloud infrastructure security**, vulnerability assessment, and identity & access management (IAM)  
+- 💻 **Full-Stack Developer** experienced in building secure, scalable applications  
+- 🔗 Focused on **integrating security into cloud-native development and CI/CD pipelines**  
 
 ---
 
@@ -41,6 +41,18 @@
   <img src="https://img.shields.io/badge/Git-1E1E1E?style=for-the-badge&logo=git&logoColor=F05032"/>
 </p>
 
+### ⚙️ Cloud & Security Tools  
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900"/>
+  <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Wireshark-1E1E1E?style=for-the-badge&logo=wireshark&logoColor=1679A7"/>
+  <img src="https://img.shields.io/badge/Nmap-1E1E1E?style=for-the-badge&logo=nmap&logoColor=2F5D62"/>
+  <img src="https://img.shields.io/badge/Metasploit-1E1E1E?style=for-the-badge&logo=metasploit&logoColor=00AEEF"/>
+  <img src="https://img.shields.io/badge/Burp%20Suite-1E1E1E?style=for-the-badge&logo=burp-suite&logoColor=FF6F00"/>
+</p>
+
 ### ⚙️ Frameworks  
 <p align="center">
   <img src="https://img.shields.io/badge/Django-1E1E1E?style=for-the-badge&logo=django&logoColor=0C4B33"/>
@@ -52,14 +64,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-1E1E1E?style=for-the-badge&logo=postgresql&logoColor=316192"/>
   <img src="https://img.shields.io/badge/MySQL-1E1E1E?style=for-the-badge&logo=mysql&logoColor=4479A1"/>
-</p>
-
-### 🧰 Tools  
-<p align="center">
-  <img src="https://img.shields.io/badge/Wireshark-1E1E1E?style=for-the-badge&logo=wireshark&logoColor=1679A7"/>
-  <img src="https://img.shields.io/badge/Burp%20Suite-1E1E1E?style=for-the-badge&logo=burp-suite&logoColor=FF6F00"/>
-  <img src="https://img.shields.io/badge/Nmap-1E1E1E?style=for-the-badge&logo=nmap&logoColor=2F5D62"/>
-  <img src="https://img.shields.io/badge/Metasploit-1E1E1E?style=for-the-badge&logo=metasploit&logoColor=00AEEF"/>
 </p>
 
 ---
@@ -89,6 +93,6 @@
 ---
 
 <p align="center">
-  <i>"Full-stack by build, cyber-defender by passion."</i><br/>
-  ⚡ <b>Stay curious, stay ethical.</b> ⚡
+  <i>"Full-stack by build, cloud security by implementation."</i><br/>
+  ⚡ <b>Stay curious, stay secure.</b> ⚡
 </p>
