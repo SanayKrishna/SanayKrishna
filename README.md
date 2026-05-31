@@ -16,7 +16,7 @@
 
 Final-year **BCA Honours** student majoring in **Cyber Security** at Chanakya University (graduating 2026).
 
-I focus on cloud infrastructure security, threat detection, and security automation on AWS. I also build full-stack applications — which means I understand the systems I'm trying to secure. Currently deepening hands-on skills via TryHackMe and working toward AWS certifications.
+I focus on cloud infrastructure security, threat detection, and security automation on AWS. I also build full-stack applications which means I understand the systems I'm trying to secure. Currently deepening hands-on skills via TryHackMe and working toward AWS certifications.
 
 **Open to:** Internships and entry-level roles in Cloud Security, SOC Analysis, or Penetration Testing.
 
