@@ -14,11 +14,11 @@
 
 ### About Me
 
-Final year **BCA Honours** student majoring in **Cyber Security** at Chanakya University (graduating 2027).
+Final year BCA Honours student majoring in Cyber Security at Chanakya University, graduating 2027.
 
-I focus on cloud infrastructure security, threat detection, and security automation on AWS. I also build full stack applications which means I understand the systems I'm trying to secure. Currently deepening hands on skills via TryHackMe and working toward AWS certifications.
+My focus is cloud security: detection engineering, incident response automation, and AWS misconfiguration hunting. I build the systems too, not just the security tooling around them, because I want to understand what I'm defending, not just scan it from the outside. Right now I'm working through the Security+ curriculum and treating cloud security as the target, with SOC analyst roles as the realistic way in.
 
-**Open to:** Internships and entry-level roles in Cloud Security, SOC Analysis, or Penetration Testing.
+**Open to:** Internships and entry-level roles in Cloud Security, SOC Analysis, or Application Security.
 
 ---
 
@@ -28,7 +28,7 @@ I focus on cloud infrastructure security, threat detection, and security automat
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/SanayKrishna/CloudScanner">CloudScanner</a></h4>
-      <p>Event-driven cloud security framework for AWS S3. Audits bucket misconfigurations, detects threats via CloudTrail + EventBridge, and automates remediation. Alerts via SNS and Slack.</p>
+      <p>Event-driven security framework for AWS S3. Audits bucket misconfigurations, detects threats through CloudTrail and EventBridge, and automates remediation. Alerts via SNS and Slack.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900"/>
@@ -37,17 +37,19 @@ I focus on cloud infrastructure security, threat detection, and security automat
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/SanayKrishna/Ai-Powered-Soar-Engine">AI-Powered SOAR Engine</a></h4>
-      <p>ML-driven SOAR platform that scores and prioritises security alerts using a RandomForestClassifier. Executes automated playbooks and pushes incidents to Slack. Live demo on Vercel.</p>
+      <h4><a href="https://github.com/SanayKrishna/Mitre-Cloudtrail-Detection">MITRE ATT&CK Cloud TTP Detection Engine</a></h4>
+      <p>CloudTrail detection engine that maps AWS API events to MITRE ATT&CK Cloud techniques in real time and produces enriched, analyst-ready alerts with a coverage dashboard. 39 rules across 20 techniques and 9 tactics, with 33 passing tests, including live checks against the real MITRE STIX data rather than mocks.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900"/>
+        <img src="https://img.shields.io/badge/MITRE_ATT%26CK-A62422?style=flat-square&logoColor=white"/>
       </p>
     </td>
   </tr>
 </table>
+
+Other projects: [AI-Powered SOAR Engine](https://github.com/SanayKrishna/Ai-Powered-Soar-Engine) — ML-scored alert triage and automated playbooks; Slack alerting is mocked, not a live webhook, so treat that claim as "designed for" rather than "does."
 
 ---
 
@@ -55,11 +57,12 @@ I focus on cloud infrastructure security, threat detection, and security automat
 
 | Credential | Issuer | Status |
 |---|---|---|
+| CompTIA Security+ (SY0-701) | CompTIA | Studying |
+| AWS Solutions Architect Associate | AWS | In Progress |
 | Mastercard Cybersecurity Job Simulation | Forage | Completed |
 | Tata Cybersecurity Analyst Job Simulation | Forage | Completed |
 | Deloitte Cybersecurity Job Simulation | Forage | Completed |
 | Google IT Automation with Python | Coursera / Google | Completed |
-| AWS Solutions Architect Associate | AWS | In Progress |
 
 Certificate links available on request via LinkedIn.
 
@@ -72,6 +75,7 @@ Certificate links available on request via LinkedIn.
 ![AWS Security](https://img.shields.io/badge/AWS_Security-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900)
 ![IAM](https://img.shields.io/badge/IAM-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900)
 ![CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-A62422?style=flat-square&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-2F5D62?style=flat-square&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6F00?style=flat-square&logoColor=white)
@@ -97,10 +101,9 @@ Certificate links available on request via LinkedIn.
 
 ### Currently
 
-- Grinding **TryHackMe** — SOC Level 1 & Jr Penetration Tester paths → [tryhackme.com/p/mochi1](https://tryhackme.com/p/mochi1)
-- Pursuing **AWS Solutions Architect Associate**
-- Extending CloudScanner with GuardDuty integration and multi-region support
-- Open to internships in cloud security, SOC analysis, or penetration testing
+- Studying for CompTIA Security+ (SY0-701)
+- Pursuing AWS Solutions Architect Associate
+- Open to internships in cloud security, SOC analysis, or application security
 
 <div align="center">
 
@@ -111,5 +114,5 @@ Certificate links available on request via LinkedIn.
 ---
 
 <div align="center">
-  <i>"Full-stack by build, cloud security by implementation."</i>
+  <i>Full-stack by build, cloud security by focus.</i>
 </div>
