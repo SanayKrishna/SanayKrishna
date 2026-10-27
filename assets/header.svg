@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="190" viewBox="0 0 880 190" role="img" aria-label="Sanay Krishna, cloud and application security">
+<rect width="880" height="190" rx="10" fill="#0c0b0a"/>
+<rect x="0.5" y="0.5" width="879" height="189" rx="10" fill="none" stroke="#2a2318"/>
+<circle cx="22" cy="20" r="5" fill="#3a3024"/><circle cx="40" cy="20" r="5" fill="#3a3024"/><circle cx="58" cy="20" r="5" fill="#3a3024"/>
+<text x="440.0" y="24" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="12" fill="#a8781f">mochi@cloudsec: ~</text>
+<line x1="0" y1="38" x2="880" y2="38" stroke="#2a2318"/>
+<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace">
+<text x="28" y="72" font-size="15" fill="#a8781f">$ whoami</text>
+<text x="28" y="108" font-size="30" font-weight="700" fill="#ffb300" letter-spacing="1">Sanay Krishna</text>
+<text x="28" y="136" font-size="15" fill="#e8dcc4">cloud security · application security · detection engineering</text>
+<text x="28" y="164" font-size="13" fill="#a8781f"># BCA Honours (Cyber Security), Chanakya University, Bengaluru · class of 2027</text>
+<rect x="840" y="152" width="9" height="16" fill="#ffb300"><animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></rect>
+</g></svg>

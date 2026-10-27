@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="378" viewBox="0 0 880 378" role="img" aria-label="MITRE ATT&amp;CK cloud coverage: 39 rules, 20 techniques, 9 tactics">
+<rect width="880" height="378" rx="10" fill="#0c0b0a"/><rect x="0.5" y="0.5" width="879" height="377" rx="10" fill="none" stroke="#2a2318"/>
+<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace">
+<text x="16" y="32" font-size="15" font-weight="700" fill="#ffb300">ATT&amp;CK cloud coverage</text>
+<text x="16" y="52" font-size="12" fill="#a8781f">generated from rules/cloud_ttp_rules.py · 39 rules · 20 techniques · 9 tactics</text>
+<text x="60.4" y="88" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">INITIAL ACCESS</text>
+<rect x="16.0" y="104" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="16.0" y="104" width="3" height="64" fill="#d9951e"/>
+<text x="25.0" y="122" font-size="11" font-weight="700" fill="#ffb300">T1078.004</text>
+<text x="25.0" y="137" font-size="9" fill="#e8dcc4">Cloud</text>
+<text x="25.0" y="148" font-size="9" fill="#e8dcc4">Accounts</text>
+<text x="25.0" y="162" font-size="9" fill="#a8781f">2 rules</text>
+<rect x="16.0" y="174" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="16.0" y="174" width="3" height="64" fill="#d9951e"/>
+<text x="25.0" y="192" font-size="11" font-weight="700" fill="#ffb300">T1190</text>
+<text x="25.0" y="207" font-size="9" fill="#e8dcc4">Public-Facing</text>
+<text x="25.0" y="218" font-size="9" fill="#e8dcc4">App</text>
+<text x="25.0" y="232" font-size="9" fill="#a8781f">1 rule</text>
+<text x="155.3" y="88" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">PERSISTENCE</text>
+<rect x="110.9" y="104" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="110.9" y="104" width="3" height="64" fill="#d9951e"/>
+<text x="119.9" y="122" font-size="11" font-weight="700" fill="#ffb300">T1136.003</text>
+<text x="119.9" y="137" font-size="9" fill="#e8dcc4">Create Cloud</text>
+<text x="119.9" y="148" font-size="9" fill="#e8dcc4">Acct</text>
+<text x="119.9" y="162" font-size="9" fill="#a8781f">2 rules</text>
+<rect x="110.9" y="174" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="110.9" y="174" width="3" height="64" fill="#d9951e"/>
+<text x="119.9" y="192" font-size="11" font-weight="700" fill="#ffb300">T1098.001</text>
+<text x="119.9" y="207" font-size="9" fill="#e8dcc4">Extra Cloud</text>
+<text x="119.9" y="218" font-size="9" fill="#e8dcc4">Creds</text>
+<text x="119.9" y="232" font-size="9" fill="#a8781f">2 rules</text>
+<rect x="110.9" y="244" width="88.9" height="64" rx="4" fill="#100e0b" stroke="#7d6440" stroke-width="1.2"/>
+<rect x="110.9" y="244" width="3" height="64" fill="#7d6440"/>
+<text x="119.9" y="262" font-size="11" font-weight="700" fill="#ffb300">T1546</text>
+<text x="119.9" y="277" font-size="9" fill="#e8dcc4">Event Triggers</text>
+<text x="119.9" y="302" font-size="9" fill="#a8781f">2 rules</text>
+<text x="250.2" y="80" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">PRIVILEGE</text><text x="250.2" y="92" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">ESCALATION</text>
+<rect x="205.8" y="104" width="88.9" height="64" rx="4" fill="#2b1d04" stroke="#ffb300" stroke-width="1.2"/>
+<rect x="205.8" y="104" width="3" height="64" fill="#ffb300"/>
+<text x="214.8" y="122" font-size="11" font-weight="700" fill="#ffb300">T1098</text>
+<text x="214.8" y="137" font-size="9" fill="#e8dcc4">Account</text>
+<text x="214.8" y="148" font-size="9" fill="#e8dcc4">Manipulation</text>
+<text x="214.8" y="162" font-size="9" fill="#a8781f">2 rules</text>
+<text x="345.1" y="80" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">DEFENSE</text><text x="345.1" y="92" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">EVASION</text>
+<rect x="300.7" y="104" width="88.9" height="64" rx="4" fill="#2b1d04" stroke="#ffb300" stroke-width="1.2"/>
+<rect x="300.7" y="104" width="3" height="64" fill="#ffb300"/>
+<text x="309.7" y="122" font-size="11" font-weight="700" fill="#ffb300">T1562.008</text>
+<text x="309.7" y="137" font-size="9" fill="#e8dcc4">Disable Cloud</text>
+<text x="309.7" y="148" font-size="9" fill="#e8dcc4">Logs</text>
+<text x="309.7" y="162" font-size="9" fill="#a8781f">4 rules</text>
+<rect x="300.7" y="174" width="88.9" height="64" rx="4" fill="#100e0b" stroke="#7d6440" stroke-width="1.2"/>
+<rect x="300.7" y="174" width="3" height="64" fill="#7d6440"/>
+<text x="309.7" y="192" font-size="11" font-weight="700" fill="#ffb300">T1535</text>
+<text x="309.7" y="207" font-size="9" fill="#e8dcc4">Unused</text>
+<text x="309.7" y="218" font-size="9" fill="#e8dcc4">Regions</text>
+<text x="309.7" y="232" font-size="9" fill="#a8781f">1 rule</text>
+<rect x="300.7" y="244" width="88.9" height="64" rx="4" fill="#100e0b" stroke="#7d6440" stroke-width="1.2"/>
+<rect x="300.7" y="244" width="3" height="64" fill="#7d6440"/>
+<text x="309.7" y="262" font-size="11" font-weight="700" fill="#ffb300">T1578</text>
+<text x="309.7" y="277" font-size="9" fill="#e8dcc4">Modify</text>
+<text x="309.7" y="288" font-size="9" fill="#e8dcc4">Compute</text>
+<text x="309.7" y="302" font-size="9" fill="#a8781f">2 rules</text>
+<text x="440.0" y="80" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">CREDENTIAL</text><text x="440.0" y="92" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">ACCESS</text>
+<rect x="395.6" y="104" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="395.6" y="104" width="3" height="64" fill="#d9951e"/>
+<text x="404.6" y="122" font-size="11" font-weight="700" fill="#ffb300">T1552.005</text>
+<text x="404.6" y="137" font-size="9" fill="#e8dcc4">Metadata API</text>
+<text x="404.6" y="162" font-size="9" fill="#a8781f">1 rule</text>
+<rect x="395.6" y="174" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="395.6" y="174" width="3" height="64" fill="#d9951e"/>
+<text x="404.6" y="192" font-size="11" font-weight="700" fill="#ffb300">T1528</text>
+<text x="404.6" y="207" font-size="9" fill="#e8dcc4">Steal Access</text>
+<text x="404.6" y="218" font-size="9" fill="#e8dcc4">Token</text>
+<text x="404.6" y="232" font-size="9" fill="#a8781f">2 rules</text>
+<text x="534.9" y="88" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">DISCOVERY</text>
+<rect x="490.4" y="104" width="88.9" height="64" rx="4" fill="#0d0c0b" stroke="#4f4638" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="490.4" y="104" width="3" height="64" fill="#4f4638"/>
+<text x="499.4" y="122" font-size="11" font-weight="700" fill="#ffb300">T1580</text>
+<text x="499.4" y="137" font-size="9" fill="#e8dcc4">Infra</text>
+<text x="499.4" y="148" font-size="9" fill="#e8dcc4">Discovery</text>
+<text x="499.4" y="162" font-size="9" fill="#a8781f">2 rules</text>
+<rect x="490.4" y="174" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="490.4" y="174" width="3" height="64" fill="#d9951e"/>
+<text x="499.4" y="192" font-size="11" font-weight="700" fill="#ffb300">T1069.003</text>
+<text x="499.4" y="207" font-size="9" fill="#e8dcc4">Cloud Groups</text>
+<text x="499.4" y="232" font-size="9" fill="#a8781f">2 rules</text>
+<rect x="490.4" y="244" width="88.9" height="64" rx="4" fill="#0d0c0b" stroke="#4f4638" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="490.4" y="244" width="3" height="64" fill="#4f4638"/>
+<text x="499.4" y="262" font-size="11" font-weight="700" fill="#ffb300">T1526</text>
+<text x="499.4" y="277" font-size="9" fill="#e8dcc4">Service</text>
+<text x="499.4" y="288" font-size="9" fill="#e8dcc4">Discovery</text>
+<text x="499.4" y="302" font-size="9" fill="#a8781f">3 rules</text>
+<text x="629.8" y="88" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">COLLECTION</text>
+<rect x="585.3" y="104" width="88.9" height="64" rx="4" fill="#100e0b" stroke="#7d6440" stroke-width="1.2"/>
+<rect x="585.3" y="104" width="3" height="64" fill="#7d6440"/>
+<text x="594.3" y="122" font-size="11" font-weight="700" fill="#ffb300">T1530</text>
+<text x="594.3" y="137" font-size="9" fill="#e8dcc4">Cloud Storage</text>
+<text x="594.3" y="148" font-size="9" fill="#e8dcc4">Data</text>
+<text x="594.3" y="162" font-size="9" fill="#a8781f">2 rules</text>
+<text x="724.7" y="88" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">EXFILTRATION</text>
+<rect x="680.2" y="104" width="88.9" height="64" rx="4" fill="#2b1d04" stroke="#ffb300" stroke-width="1.2"/>
+<rect x="680.2" y="104" width="3" height="64" fill="#ffb300"/>
+<text x="689.2" y="122" font-size="11" font-weight="700" fill="#ffb300">T1537</text>
+<text x="689.2" y="137" font-size="9" fill="#e8dcc4">Transfer to</text>
+<text x="689.2" y="148" font-size="9" fill="#e8dcc4">Cloud Acct</text>
+<text x="689.2" y="162" font-size="9" fill="#a8781f">2 rules</text>
+<rect x="680.2" y="174" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="680.2" y="174" width="3" height="64" fill="#d9951e"/>
+<text x="689.2" y="192" font-size="11" font-weight="700" fill="#ffb300">T1567</text>
+<text x="689.2" y="207" font-size="9" fill="#e8dcc4">Over Web</text>
+<text x="689.2" y="218" font-size="9" fill="#e8dcc4">Service</text>
+<text x="689.2" y="232" font-size="9" fill="#a8781f">1 rule</text>
+<text x="819.6" y="88" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8dcc4">IMPACT</text>
+<rect x="775.1" y="104" width="88.9" height="64" rx="4" fill="#2b1d04" stroke="#ffb300" stroke-width="1.2"/>
+<rect x="775.1" y="104" width="3" height="64" fill="#ffb300"/>
+<text x="784.1" y="122" font-size="11" font-weight="700" fill="#ffb300">T1485</text>
+<text x="784.1" y="137" font-size="9" fill="#e8dcc4">Data</text>
+<text x="784.1" y="148" font-size="9" fill="#e8dcc4">Destruction</text>
+<text x="784.1" y="162" font-size="9" fill="#a8781f">3 rules</text>
+<rect x="775.1" y="174" width="88.9" height="64" rx="4" fill="#2b1d04" stroke="#ffb300" stroke-width="1.2"/>
+<rect x="775.1" y="174" width="3" height="64" fill="#ffb300"/>
+<text x="784.1" y="192" font-size="11" font-weight="700" fill="#ffb300">T1486</text>
+<text x="784.1" y="207" font-size="9" fill="#e8dcc4">Encrypted for</text>
+<text x="784.1" y="218" font-size="9" fill="#e8dcc4">Impact</text>
+<text x="784.1" y="232" font-size="9" fill="#a8781f">2 rules</text>
+<rect x="775.1" y="244" width="88.9" height="64" rx="4" fill="#17110a" stroke="#d9951e" stroke-width="1.2"/>
+<rect x="775.1" y="244" width="3" height="64" fill="#d9951e"/>
+<text x="784.1" y="262" font-size="11" font-weight="700" fill="#ffb300">T1496</text>
+<text x="784.1" y="277" font-size="9" fill="#e8dcc4">Resource</text>
+<text x="784.1" y="288" font-size="9" fill="#e8dcc4">Hijacking</text>
+<text x="784.1" y="302" font-size="9" fill="#a8781f">1 rule</text>
+<text x="16" y="356" font-size="10.5" fill="#a8781f">highest severity per technique:</text>
+<rect x="246" y="346" width="12" height="12" rx="2" fill="#2b1d04" stroke="#ffb300" stroke-width="1.5"/><text x="264" y="356" font-size="10.5" fill="#e8dcc4">critical</text>
+<rect x="346" y="346" width="12" height="12" rx="2" fill="#17110a" stroke="#d9951e" stroke-width="1.5"/><text x="364" y="356" font-size="10.5" fill="#e8dcc4">high</text>
+<rect x="446" y="346" width="12" height="12" rx="2" fill="#100e0b" stroke="#7d6440" stroke-width="1.5"/><text x="464" y="356" font-size="10.5" fill="#e8dcc4">medium</text>
+<rect x="546" y="346" width="12" height="12" rx="2" fill="#0d0c0b" stroke="#4f4638" stroke-width="1.5" stroke-dasharray="3 2"/><text x="564" y="356" font-size="10.5" fill="#e8dcc4">low</text>
+</g></svg>
