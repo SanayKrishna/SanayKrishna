@@ -21,7 +21,7 @@ Final-year BCA Honours (Cyber Security) student at Chanakya University, Bengalur
 
 **Application Security Intern · Genki to Asia Co., Ltd. (Japan)** · Dec 2025 to present
 
-Co-designing the security architecture for KoKoMata, a location-based mobile app, with a fellow intern. The core threat is someone using the app to find another user's home, so the design never lets exact coordinates reach a client.
+Co-designing the security architecture for KoKoMata, a location-based mobile app, with a fellow intern. Users pin a photo and a story to a place. When someone else walks nearby, the app tells them something is hidden there, and they go and see it from the poster's point of view. Because every pin is tied to a real location, the main privacy risk is a pin giving away where someone lives or spends time, so exact coordinates never reach a client.
 
 - Access control in three independent layers: Row Level Security on every table, secrets isolated in a private schema with no client grants, and privileged database functions as the only path to sensitive data
 - HMAC-based location jitter keyed by a server-side secret, so pin locations stay coarse but stable
