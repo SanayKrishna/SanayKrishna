@@ -44,10 +44,10 @@ Maps AWS CloudTrail events to MITRE ATT&CK cloud techniques. 39 rules across 20 
 </details>
 
 **[CloudScanner](https://github.com/SanayKrishna/CloudScanner)** · cloud posture
-S3 security dashboard: audits every bucket's policy, ACLs, encryption, logging and versioning against the CIS AWS Foundations Benchmark, and flags risky S3 API calls, mass deletions and unusual access in CloudTrail. FastAPI dashboard with PDF export.
+Audits every S3 bucket for public access, loose ACLs or policies and cross-account access, rated Low to Critical against CIS and AWS FSBP controls. Real-time alerting via CloudTrail, EventBridge, Lambda and SNS (who, from which IP, on which bucket), all in Terraform. 24 tests, CI.
 
 **[Ai-Powered-Soar-Engine](https://github.com/SanayKrishna/Ai-Powered-Soar-Engine)** · automation
-Alert triage prototype: a random forest trained on synthetic alerts scores each alert 1 to 100 and the score picks the playbook (ticket, notify, isolate). Responses are simulated; every alert and action is logged to SQLite.
+Alert triage prototype: a random forest trained on synthetic alerts scores each alert 1 to 100 and the score picks the playbook (ticket, notify, isolate). Slack alerts are real when a webhook is set; other responses are simulated. Every alert and action is logged to SQLite.
 
 **Hackathons:** 2nd place, IKS Hackathon 2026 (ChandaEngine) · 3rd place, Srujana Hackathon 2025 (Netā-Nomics)
 
